@@ -2,7 +2,7 @@
 
 A small Windows desktop app that keeps each project's tasks in its own folder. Use **To-dos** for current tasks and **Plans** for future work.
 
-Place a copy of `SimpleTodo.exe` in each project folder and double-click it to open that project's list. The folder path appears at the bottom of the window, so you can see which project you are working on. Each folder keeps its own tasks and completion status.
+Place a copy of `SimpleTodo.exe` in each project folder and double-click it to open that project's list. The folder path appears at the bottom of the window, so you can see which project you are working on. Separate lists keep you focused on the current project, and your tasks travel with the folder when you move or back it up.
 
 <p align="center">
   <img src="docs/simpletodo.png" alt="SimpleTodo showing tasks for Project-A" width="385">
