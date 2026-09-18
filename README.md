@@ -4,6 +4,22 @@ SimpleTodo is a lightweight Windows desktop app for managing current tasks (**To
 
 ![SimpleTodo app](docs/simpletodo.png)
 
+## One todo list per project folder
+
+SimpleTodo can live inside each project folder. Place a copy of `SimpleTodo.exe` in every project you want to track, and each copy will keep its own `.simple_todos.json` data file beside the app.
+
+```text
+Project A/
+├── SimpleTodo.exe
+└── .simple_todos.json
+
+Project B/
+├── SimpleTodo.exe
+└── .simple_todos.json
+```
+
+This keeps every project's tasks separate and makes it easy to see which todo list belongs to which folder.
+
 ## Install and run
 
 SimpleTodo does not require a traditional installation or any third-party Python packages.
